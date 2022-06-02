@@ -25,7 +25,7 @@ COPY README.md LICENSE /usr/src/app/
 
 WORKDIR /usr/src/app
 
-RUN pip3 install .
+RUN pip3 install . -i https://pypi.tuna.tsinghua.edu.cn/simple
 
 WORKDIR /root
 
